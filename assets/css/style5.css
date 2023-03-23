@@ -1,0 +1,19 @@
+.produtos {
+	display: flex;
+	flex-wrap: wrap;
+}
+.produto {
+	flex: 1 1 300px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 10px;
+}
+.adicionar {
+	background-color: #4CAF50;
+	border: none;
+	color: white
+}
+.compra {
+    display: none;
+  }
+  
