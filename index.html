@@ -41,46 +41,59 @@
          </div>
     <main>
         <div class="bah">
-<!-- começa o slider -->
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-
-            <div class="slide first">
-                <img src="./assets/img/braboleta espaço.jpg" alt="borboleta">
-            </div>
-            <div class="slide">
-                <img src="./assets/img/cachorro.jpg" alt="cachorro">
-            </div>
-            <div class="slide">
-                <img src="./assets/img/espaço.webp" alt="espaço">
-            </div>
-            <div class="slide">
-                <img src="./assets/img/lsd.jpg" alt="lsd">
-            </div>
-            <!-- fim do slider
-            auto naveçao começo -->
-            <div class="auto-navegatino">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-           </div>
-            <!-- auto naveção fim -->
-        </div>
-        <!-- navegação manual começo -->
-        <div class="navegation-manual">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-        <!-- navegação manual fim -->
+  <!--image slider start-->
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="assets/img/braboleta a.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./assets/img/cachorro a.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./assets/img/braboleta espaço a.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./assets/img/lsd a.png" alt="">
+      </div>
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!--automatic navigation end-->
     </div>
-<!-- imagen slider fim -->
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
+  </div>
+  <!--image slider end-->
+
+  <script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  }, 5000);
+  </script>
 </div>
 
 
