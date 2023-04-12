@@ -1,22 +1,21 @@
+
 .bah{
   margin: 0;
   padding: 0;
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .slider{
-  width: 800px;
-  height: 500px;
-  border-radius: 10px;
+  width: 1800px;
+  height: 400px;
   overflow: hidden;
 }
 
 .slides{
   width: 500%;
-  height: 500px;
+  height: 400px;
   display: flex;
 }
 
@@ -30,18 +29,18 @@
 }
 
 .slide img{
-  width: 800px;
-  height: 500px;
+  width: 1800px;
+  height: 400px;
 }
 
 /*css for manual slide navigation*/
 
 .navigation-manual{
   position: absolute;
-  width: 800px;
+  width: 1300px;
   margin-top: -40px;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 .manual-btn{
@@ -81,9 +80,9 @@
 .navigation-auto{
   position: absolute;
   display: flex;
-  width: 800px;
+  width: 1300px;
   justify-content: center;
-  margin-top: 460px;
+  margin-top: 360px;
 }
 
 .navigation-auto div{
@@ -111,7 +110,45 @@
 #radio4:checked ~ .navigation-auto .auto-btn4{
   background: #fca311;
 }
+/*-----------------------------------------fim do slider-------------------------------------------*/
+.barrapreta1{
+  position: absolute;
+  left: 1px;
+  top: 105px;
+  background-color: black;
+  width: 1348px;
+  height: 2px;
+}
+.barrapreta2{
+  position: absolute;
+  left: 1px;
+  top: 505px;
+  background-color: black;
+  width: 1348px;
+  height: 2px;
+}
+.promoçoes{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.barramarela{
+  position: absolute;
+  left: 590px;
+  top: 565px;
+  background-color: #fca311;
+  width: 180px;
+  height: 2px;
+}
+.opa{
+  position: absolute;
+  left: 600px;
+  top: 520px;
+  width: 110px;
+  height: 64px;
+  font-size: 40px;
 
+}
 
 
 
