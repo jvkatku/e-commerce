@@ -37,7 +37,7 @@
 
 .navigation-manual{
   position: absolute;
-  width: 1300px;
+  width: 1688px;
   margin-top: -40px;
   display: flex;
   justify-content:center;
@@ -80,7 +80,7 @@
 .navigation-auto{
   position: absolute;
   display: flex;
-  width: 1300px;
+  width: 1688px;
   justify-content: center;
   margin-top: 360px;
 }
@@ -116,7 +116,7 @@
   left: 1px;
   top: 105px;
   background-color: black;
-  width: 1348px;
+  width: 1687px;
   height: 2px;
 }
 .barrapreta2{
@@ -124,7 +124,7 @@
   left: 1px;
   top: 505px;
   background-color: black;
-  width: 1348px;
+  width: 1687px;
   height: 2px;
 }
 .promoçoes{
@@ -134,7 +134,7 @@
 }
 .barramarela{
   position: absolute;
-  left: 590px;
+  left: 750px;
   top: 565px;
   background-color: #fca311;
   width: 180px;
@@ -142,7 +142,7 @@
 }
 .opa{
   position: absolute;
-  left: 600px;
+  left: 760px;
   top: 520px;
   width: 110px;
   height: 64px;
@@ -150,14 +150,20 @@
 
 }
 /* --------------------------- card produto ------------------------ */
-.corpinho{
+.ladinho {
   display: flex;
-  flex: row;
-  min-width: 100vh;
-  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-.card{
+
+.corpinho {
+  margin-right: 200px;
+}
+
+.card {
+  border: #fca311 2px solid;
   position: relative;
+  left: 50px;
   width: 320px;
   height: 420px;
   background-color: whitesmoke;
@@ -165,16 +171,65 @@
   border-radius: 20px;
   overflow: hidden;
 }
-.card:before{
+
+.card:before {
   content: '';
   position: absolute;
   top: -50%;
   width: 100%;
   height: 100%;
-
 }
 
+.img_produto1 {
+  width: 80%;
+  position: absolute;
+  right: 100px;
+  padding-top: 28px;
+  z-index: 1;
+}
 
+.tamanho {
+  height: 380px;
+  position: absolute;
+  left: 35px;
+}
+
+h6 {
+  position: absolute;
+  top: 385px;
+  font-size: 1.2rem;
+  left: 80px;
+}
+
+.tamanho2 {
+  width: 120%;
+  height: 380px;
+  left: -20px;
+  position: absolute;
+  left: px;
+}
+h5 {
+  position: absolute;
+  top: 385px;
+  font-size: 1.2rem;
+  left: 100px;
+}
+.tamanho3 {
+  width: 90%;
+  height: 380px;
+  left: 20px;
+  position: absolute;
+  left: px;
+}
+h6{
+  position: absolute;
+  top: 385px;
+  font-size: 1.2rem;
+  left: 120px;
+}
+/* =========================================================================== */
+
+/* ====================================================================================== */
 
 
 
